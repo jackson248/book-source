@@ -1,7 +1,6 @@
 #修改自maimengmeng
 #!/bin/sh
 #已停车
-/bin/sh
 echo "----------------------------Turing Lab Bot begin--------------------------------" > sharecode.txt
 code_farm=''
 code_jxfactory=''
