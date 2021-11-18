@@ -46,7 +46,7 @@ do
 #echo "/submit_activity_codes bean ${code_bean#&}" >> sharecode.txt
 #echo "/submit_activity_codes health ${code_health#&}" >> sharecode.txt
 #echo "/submit_activity_codes city ${code_city#&}" >> sharecode.txt
-done < logs/sharecodeCollection.log
+done < logs/shufflewzc_faker2_jd_get_share_code
 echo "/farm ${code_farm#&}" >> sharecode.txt
 echo "/jxfactory ${code_jxfactory#&}" >> sharecode.txt
 echo "/ddfactory ${code_ddfactory#&}" >> sharecode.txt
